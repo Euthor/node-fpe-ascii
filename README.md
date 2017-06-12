@@ -13,10 +13,10 @@ const Encryptor = require('node-fpe-ascii');
 const encryptor = new Encryptor({ password: 'veronica' });
 
 // Note: The ciphertext has the same length as the plaintext.
-cipher.encrypt('The quick brown fox number 3, jumps over the lazy dog')
+encryptor.encrypt('The quick brown fox number 3, jumps over the lazy dog')
 // '/(26:*Gu`6OpRDx6>R,6x* O2p6oF6w* \b6Rt2p6C(26l7E56gR!'
 
-cipher.decrypt('/(26:*Gu`6OpRDx6>R,6x* O2p6oF6w* \b6Rt2p6C(26l7E56gR!')
+encryptor.decrypt('/(26:*Gu`6OpRDx6>R,6x* O2p6oF6w* \b6Rt2p6C(26l7E56gR!')
 // 'The quick brown fox number 3, jumps over the lazy dog'
 ```
 
