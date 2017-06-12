@@ -29,7 +29,6 @@ $ npm test
 ## Contributing?
 
 ```bash
-# Run the linter before pushing, uses [xo][5] linter
 $ npm run lint
 ```
 
@@ -68,4 +67,3 @@ SOFTWARE.
 [2]: http://ee.hawaii.edu/~tep/EE160/Book/chap4/subsection2.1.1.1.html
 [3]: https://github.com/nicholaswmin
 [4]: https://github.com/Euthor
-[5]: https://github.com/sindresorhus/xo
