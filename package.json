@@ -1,6 +1,6 @@
 {
   "name": "node-fpe-ascii",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Format-preserving encryption on ASCII characters",
   "main": "index.js",
   "scripts": {
