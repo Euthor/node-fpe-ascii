@@ -9,7 +9,7 @@ Simply wraps [node-fpe][1] adding default support for all [ASCII][2] characters.
 ## Usage
 
 ```javascript
-const Encryptor = require('fpe');
+const Encryptor = require('node-fpe-ascii');
 const encryptor = new Encryptor({ password: 'veronica' });
 
 // Note: The ciphertext has the same length as the plaintext.
