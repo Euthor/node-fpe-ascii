@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Euthor/fpe.git"
+    "url": "git+https://github.com/Euthor/node-fpe-ascii.git"
   },
   "keywords": [
     "fpe"
@@ -17,9 +17,9 @@
   "author": "@Euthor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Euthor/fpe/issues"
+    "url": "https://github.com/Euthor/node-fpe-ascii/issues"
   },
-  "homepage": "https://github.com/Euthor/fpe#readme",
+  "homepage": "https://github.com/Euthor/node-fpe-ascii#readme",
   "dependencies": {
     "node-fpe": "^1.0.0"
   },
