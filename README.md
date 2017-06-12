@@ -29,6 +29,7 @@ $ npm test
 ## Contributing?
 
 ```bash
+# Always run the linter & fix code style before pushing
 $ npm run lint
 ```
 
