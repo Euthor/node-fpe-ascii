@@ -11,9 +11,9 @@
 const fpe = require('node-fpe');
 
 class Encryptor {
-  constructor(opts = { password: null }) {
+  constructor(opts = {password: null}) {
     if (!opts.password) {
-      throw 'You need to pass a valid password to use for encrypting/decrypting';
+      throw new Error('You need to pass a valid password to use for encrypting/decrypting');
     }
 
     this._encryptor = fpe({
@@ -34,8 +34,8 @@ class Encryptor {
     const chars = [];
 
     for (let i = 32; i < 127; ++i) {
-      chars.push(String.fromCharCode(i))
-    };
+      chars.push(String.fromCharCode(i));
+    }
 
     return chars;
   }

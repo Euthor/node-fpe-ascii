@@ -4,7 +4,8 @@
   "description": "Format-preserving encryption on ASCII characters",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test/index.js",
+    "lint": "xo './*.js' --space && xo './test/*.js' --space"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "chai": "^4.0.2",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "xo": "^0.18.2"
   }
 }

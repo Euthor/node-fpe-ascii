@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Euthor/node-fpe-ascii.svg?branch=master)](https://travis-ci.org/Euthor/node-fpe-ascii)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
 # node-fpe-ascii
 Format-Preserving symmetric encryption in Node.js.
 
