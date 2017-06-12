@@ -4,7 +4,7 @@
 # node-fpe-ascii
 Format-Preserving symmetric encryption in Node.js.
 
-Simply wraps [node-fpe][1] adding default support for all [ASCII][2] characters.
+Simply wraps [node-fpe][1], adding default support for all [ASCII][2] characters.
 
 ## Usage
 
