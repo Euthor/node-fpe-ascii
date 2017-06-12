@@ -1,0 +1,29 @@
+{
+  "name": "node-fpe-ascii",
+  "version": "0.0.1",
+  "description": "Format-preserving encryption on ASCII characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Euthor/fpe.git"
+  },
+  "keywords": [
+    "fpe"
+  ],
+  "author": "@Euthor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Euthor/fpe/issues"
+  },
+  "homepage": "https://github.com/Euthor/fpe#readme",
+  "dependencies": {
+    "node-fpe": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
