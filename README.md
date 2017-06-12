@@ -26,6 +26,13 @@ cipher.decrypt('/(26:*Gu`6OpRDx6>R,6x* O2p6oF6w* \b6Rt2p6C(26l7E56gR!')
 $ npm test
 ```
 
+## Contributing?
+
+```bash
+# Run the linter before pushing, uses [xo][5] linter
+$ npm run lint
+```
+
 ## Authors
 
 - Nicholas Kyriakides, [@nicholaswmin][3]
@@ -61,3 +68,4 @@ SOFTWARE.
 [2]: http://ee.hawaii.edu/~tep/EE160/Book/chap4/subsection2.1.1.1.html
 [3]: https://github.com/nicholaswmin
 [4]: https://github.com/Euthor
+[5]: https://github.com/sindresorhus/xo
